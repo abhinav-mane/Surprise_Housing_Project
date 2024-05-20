@@ -1,52 +1,29 @@
 # Surprise Housing Regression Project
-> Outline a brief description of your project.
+> Surprise Housing, a US-based company specializing in data-driven property investments, is planning to enter the Australian real estate market. The company aims to identify and purchase houses at prices below their actual market values, then sell them at a higher price for a profit. To facilitate this, Surprise Housing has collected a dataset from house sales in Australia. The goal of this project is to build a regression model using regularization techniques to accurately predict the actual values of prospective properties. This model will assist the company in making informed investment decisions and ensuring profitable transactions in the new market.
 
 
 ## Table of Contents
-* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Sale price seemed on the higher side when the home was not even fully constructed.
+- Basement height which is more than 100+ inches which is Ex (Excellent) has a significant impact on the sale price.
+- Overall quality [(Rates the overall material and finish of the house)] of the property has a very significant impact on the price of the property
+- Overall condition (Rates the overall condition of the house) is excellent then it has higher sale price but also average condition or even poor condition has a good average sale price
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- pandas - version 2.2.0
+- seaborn - version 0.13.2
+- numpy - version 1.26.3
+- matplotlib - version 3.8.2
+- scikit-learn==1.4.1.post1
+- scipy==1.12.0
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@abhinav-mane] - feel free to contact me!
